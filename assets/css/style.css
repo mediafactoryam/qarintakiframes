@@ -38,6 +38,7 @@ a:hover{
   perspective: 1000px;
   width: 25%;
   height: 434px;
+  cursor: pointer
 }
 /* flip the pane when hovered */
 .flip-container:hover .flipper,
