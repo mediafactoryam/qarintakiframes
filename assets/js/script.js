@@ -13,7 +13,7 @@ $(document).ready(function () {
         </div>
         <div class="back">
           <p>${description}</p>
-          <a href="${link}" >Իմանալ Ավելին</a>
+          <a href="${link}" target="_blank" >Իմանալ Ավելին</a>
         </div>
       </div>
     </div>
