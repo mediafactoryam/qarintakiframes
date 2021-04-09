@@ -20,12 +20,12 @@ h2 {
 p {
   text-align: center;
 }
-a{
-    text-decoration: none;
-    color:black;
+a {
+  text-decoration: none;
+  color: black;
 }
-a:hover{
-    text-decoration: underline;
+a:hover {
+  text-decoration: underline;
 }
 #root {
   display: flex;
@@ -38,7 +38,7 @@ a:hover{
   perspective: 1000px;
   width: 25%;
   height: 434px;
-  cursor: pointer
+  cursor: pointer;
 }
 /* flip the pane when hovered */
 .flip-container:hover .flipper,
@@ -95,18 +95,21 @@ a:hover{
   text-align: left;
 }
 .back a {
-  position: absolute;
-  bottom: -20px;
-  right: 0px;
+  /* position: absolute; */
+  /* bottom: -20px; */
+  /* right: 0px; */
+  color: #f1bf3c;
+  text-align: right;
+  display: block;
 }
 
 @media only screen and (max-width: 1000px) {
-    .flip-container {
-      width: 50%;
-    }
+  .flip-container {
+    width: 50%;
   }
-  @media only screen and (max-width: 600px) {
-    .flip-container {
-      width: 100%;
-    }
+}
+@media only screen and (max-width: 600px) {
+  .flip-container {
+    width: 100%;
   }
+}
