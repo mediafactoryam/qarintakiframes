@@ -85,7 +85,6 @@ a:hover {
   /*! margin: 20px; */
   backface-visibility: hidden;
 
-  border-radius: 5px;
   overflow: hidden;
 }
 .front>div{
