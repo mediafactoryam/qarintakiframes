@@ -15,7 +15,7 @@ img {
 
 h2 {
   font-size: 14px;
-  text-align: center;
+  text-align: left;
 }
 p {
   text-align: center;
@@ -37,8 +37,10 @@ a:hover {
 .flip-container {
   perspective: 1000px;
   width: 25%;
-  height: 434px;
+  height: 344px;
   cursor: pointer;
+  /* border-radius: 13px; */
+  /* overflow: hidden; */
 }
 /* flip the pane when hovered */
 .flip-container:hover .flipper,
@@ -57,9 +59,9 @@ a:hover {
 .flipper {
   transition: 0.6s;
   transform-style: preserve-3d;
-
   position: relative;
   height: 100%;
+  /* border-radius: 8px; */
 }
 
 /* hide back of pane during swap */
@@ -80,8 +82,24 @@ a:hover {
   z-index: 2;
   /* for firefox 31 */
   transform: rotateY(0deg);
+  padding: 0px;
+  margin: 20px;
+  border-radius: 5px;
+  overflow: hidden;
 }
-
+.front>div{
+  position: absolute;
+  bottom: 0px;
+  background-image: linear-gradient(to top,#182743 0%, #48556329 100%);
+  color: white;
+  padding: 0px 20px;
+  left: 0px;
+  right: 0px;
+}
+.front>div p{
+  text-align: right;
+  font-size: 13px;
+}
 /* back, initially hidden pane */
 .back {
   transform: rotateY(180deg);
