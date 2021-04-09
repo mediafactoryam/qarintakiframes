@@ -67,7 +67,6 @@ a:hover {
 /* hide back of pane during swap */
 .front,
 .back {
-  backface-visibility: hidden;
 
   position: absolute;
   top: 0;
@@ -84,6 +83,8 @@ a:hover {
   transform: rotateY(0deg);
   padding: 0px;
   /*! margin: 20px; */
+  backface-visibility: hidden;
+
   border-radius: 5px;
   overflow: hidden;
 }
