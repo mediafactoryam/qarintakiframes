@@ -37,7 +37,7 @@ a:hover {
 .flip-container {
   perspective: 1000px;
   width: 25%;
-  height: 344px;
+  height: 300px;
   cursor: pointer;
   /* border-radius: 13px; */
   /* overflow: hidden; */
@@ -83,7 +83,7 @@ a:hover {
   /* for firefox 31 */
   transform: rotateY(0deg);
   padding: 0px;
-  margin: 20px;
+  /*! margin: 20px; */
   border-radius: 5px;
   overflow: hidden;
 }
