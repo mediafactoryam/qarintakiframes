@@ -118,7 +118,8 @@ a:hover {
   /* right: 0px; */
   color: #f1bf3c;
   text-align: right;
-  display: block;
+  display: initial;
+  float: right;
 }
 
 @media only screen and (max-width: 1000px) {
