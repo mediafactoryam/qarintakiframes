@@ -1,5 +1,9 @@
 $(document).ready(function () {
   const ROOT_EL = $("#root");
+  $(`<div class="flip-container">
+      <h1>${INFO.title}</h1>
+      <p>${INFO.text}</p>
+  </div>`).appendTo($(".with-title"));
   for (const { name, dateOfDeath, description, link, photo } of DATA) {
     $(`
     <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
@@ -17,6 +21,6 @@ $(document).ready(function () {
         </div>
       </div>
     </div>
-    `).appendTo(ROOT_EL)
+    `).appendTo(ROOT_EL);
   }
 });
