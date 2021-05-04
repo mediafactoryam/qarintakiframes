@@ -1,0 +1,21 @@
+#chart-container {
+  height: 500px;
+  color: "RED";
+}
+.custom-logo {
+  height: 30px;
+  float: right;
+}
+
+.footer {
+  font-size: 11px;
+  height: 30px;
+  background-image: url("https://mediafactoryam.github.io/qarintakiframes/img/mediafactory-logo.jpg");
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: right bottom;
+  padding: 2px 0px;
+  text-align: right;
+  padding-right: 55px;
+  padding: 20px 50px 1px 70px;
+}
