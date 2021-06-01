@@ -121,8 +121,9 @@ a:hover {
 }
 .back p {
   text-align: left;
-  overflow: auto;
+  overflow-y: auto;
   padding-right: 7px;
+  overflow-x: hidden;
 }
 .back a {
   /* position: absolute; */
