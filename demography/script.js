@@ -20,16 +20,16 @@ mainContainer.height = am4core.percent(100);
 mainContainer.layout = "horizontal";
 
 var usData = [
-  {'age': '0-ից 10 տ','male': 49,'female': 57},
-{'age': '10-ից 20 տ','male': 50,'female': 56},
-{'age': '20-ից 30 տ','male': 70,'female': 52},
-{'age': '30-ից 40 տ','male': 54,'female': 47},
-{'age': '40-ից 50 տ','male': 39,'female': 47},
-{'age': '50-ից 60 տ','male': 33,'female': 20},
-{'age': '60-ից 70 տ','male': 34,'female': 38},
-{'age': '70-ից 80 տ','male': 17,'female': 12},
-{'age': '80-ից 90 տ','male': 13,'female': 4},
-{'age': '90-ից 100 տ','male': 2,'female': 2}
+  {'age': '0-ից 10','male': 49,'female': 57},
+{'age': '10-ից 20','male': 50,'female': 56},
+{'age': '20-ից 30','male': 70,'female': 52},
+{'age': '30-ից 40','male': 54,'female': 47},
+{'age': '40-ից 50','male': 39,'female': 47},
+{'age': '50-ից 60','male': 33,'female': 20},
+{'age': '60-ից 70','male': 34,'female': 38},
+{'age': '70-ից 80','male': 17,'female': 12},
+{'age': '80-ից 90','male': 13,'female': 4},
+{'age': '90-ից 100','male': 2,'female': 2}
 ];
 
 var maleChart = mainContainer.createChild(am4charts.XYChart);
