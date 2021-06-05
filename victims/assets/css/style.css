@@ -96,6 +96,8 @@ a:hover {
   transform: rotateY(0deg);
   padding: 0px;
   /*! margin: 20px; */
+  -webkit-perspective: 0;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 
   overflow: hidden;
