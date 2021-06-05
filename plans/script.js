@@ -1,15 +1,3 @@
-/**
- * ---------------------------------------
- * This demo was created using amCharts 4.
- *
- * For more information visit:
- * https://www.amcharts.com/
- *
- * Documentation is available at:
- * https://www.amcharts.com/docs/v4/
- * ---------------------------------------
- */
-
 // Themes begin
 am4core.useTheme(am4themes_animated);
 // Themes end
@@ -34,7 +22,7 @@ var data = [{
     "litres": 98,
   color: "#62AB54"
 }, {
-    "country": "Կվերադառնան, պայմանով*",
+    "country": "Կվերադառնան պայմանով*",
     "litres": 196,
   color: "#548DAB"
 }];
@@ -67,6 +55,8 @@ series1.alignLabels = false;
 series1.labels.template.bent = true;
 series1.labels.template.radius = 10;
 series1.labels.template.padding(0,0,0,0);
+series1.labels.template.text = "{country} {litres}"
+
 
 var sliceTemplate1 = series1.slices.template;
 sliceTemplate1.cornerRadius = 5;
@@ -78,6 +68,7 @@ sliceTemplate1.propertyFields.stroke = "color";
 sliceTemplate1.propertyFields.strokeDasharray = "strokeDasharray";
 sliceTemplate1.strokeWidth = 1;
 sliceTemplate1.strokeOpacity = 1;
+
 
 var zIndex = 5;
 
