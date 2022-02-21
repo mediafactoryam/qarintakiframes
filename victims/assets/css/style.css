@@ -123,7 +123,7 @@ a:hover {
   /* overflow: auto; */
   font-size: 0.9em;
   display: grid;
-  z-index: 9999999;
+  z-index: 1;
 }
 .flip-container > p {
   position: absolute;
